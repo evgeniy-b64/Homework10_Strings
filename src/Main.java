@@ -28,8 +28,8 @@ public class Main {
         String middleName = "Viktorovich";
         String lastName = "koshkin";
         String fullName = lastName+" "+firstName+" "+middleName;
-        fullName = fullName.toUpperCase();
-        System.out.println(fullName.toUpperCase());
+        String upCaseFullName = fullName.toUpperCase();
+        System.out.println(upCaseFullName);
     }
 
     public static void task3() {
@@ -38,8 +38,8 @@ public class Main {
         String middleName = "Семёнович";
         String lastName = "Иванов";
         String fullName = lastName+" "+firstName+" "+middleName;
-        fullName = fullName.replace("ё", "е");
-        System.out.println(fullName);
+        String fixedFullName = fullName.replace("ё", "е");
+        System.out.println(fixedFullName);
     }
 
 
